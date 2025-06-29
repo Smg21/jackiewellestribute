@@ -1,0 +1,88 @@
+/* General styles */
+* {
+    background-image: linear-gradient(to right, black, blue, purple, yellow);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black for the header */
+    margin-bottom: 20px;
+    border-bottom: 3px solid white;
+}
+
+.jackie-welles {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: lightyellow;
+}
+
+/* Timeline Section */
+.year {
+    margin: 30px 10px 10px;
+    font-size: 2rem;
+    color: lightblue;
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 20px;
+    line-height: 1.6;
+}
+
+/* Images */
+img-div{
+    display: block;
+    max-width: 80%; /* Ensures the images scale for smaller screens */
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Adds a shadow for depth */
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 2px solid white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: lightgray;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .jackie-welles {
+        font-size: 2.5rem;
+    }
+
+    .quote {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        max-width: 90%; /* Adjusts image size for mobile screens */
+    }
+
+    .year {
+        font-size: 1.5rem;
+    }
+}
